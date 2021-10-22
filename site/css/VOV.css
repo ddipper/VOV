@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding: 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+body{
+    background: url(images/ипМ.jpg); background-size: cover;  
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    filter: hue-rotate()
+}
+#VOV{
+    display: flex;
+    justify-content: left;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+#Moz{
+    background: url(images/MozS.jpg); background-size: cover;  
+    width: 40%;
+    height: 350px;
+    text-align: center;
+}
+#Moz a h2{
+    padding-top: 55%;
+    font-size: 27pt;
+    
+}
+#Ves{
+    background: url(images/VesS.jpg); background-size: cover;
+    width: 40%;
+    height: 350px;
+    text-align: center;
+}
+#Ves a h2{
+    padding-top: 55%;
+    font-size: 27pt;
+}
+#p {
+    width: 0%;
+}
+#Moz h2:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    font-size: 34pt;
+    color: rgb(61, 48, 35);
+}
+#Ves h2:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    font-size: 34pt;
+    color: rgb(61, 48, 35);
+}
+#st{
+    width: 400px;
+    margin-top: 6.5%;
+}
