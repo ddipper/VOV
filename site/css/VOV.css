@@ -49,11 +49,40 @@ body{
 #p {
     width: 0%;
 }
+#Moz:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 45%;
+    height: 400px;
+}
+#Moz:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 40%;
+    height: 350px;
+}
 #Moz h2:hover{
     transition-timing-function: linear;
     transition-duration: 500ms;
     font-size: 34pt;
     color: rgb(61, 48, 35);
+}
+#Moz h2:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    font-size: 27pt;
+}   /*end of anim MOZ*/
+#Ves:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 45%;
+    height: 400px;
+}
+#Ves:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 40%;
+    height: 350px;
 }
 #Ves h2:hover{
     transition-timing-function: linear;
@@ -61,7 +90,14 @@ body{
     font-size: 34pt;
     color: rgb(61, 48, 35);
 }
+#Ves h2:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    font-size: 27pt;
+}
 #st{
-    width: 400px;
-    margin-top: 6.5%;
+    width: 20%;
+    margin-top: 0%;
+    position: fixed;
+    margin-bottom: 2%;
 }
