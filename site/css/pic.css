@@ -38,6 +38,10 @@ body{
     border-radius: 0px 0px 25px 25px;
     text-align: center;
 }
+#dh1 h1{
+    font-weight: bolder;
+
+}
 #p1{
     width: 23%;
     height: 30%;

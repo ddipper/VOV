@@ -34,8 +34,12 @@ div{
     background-color: #D4D4D4;
     color: #505050;
     padding: 0.7%;
-    margin-left: 36.8%;
+    margin-left: 35%;
     border-radius: 0px 0px 25px 25px;
+    font-weight: bolder;
+}
+#s1h1 h1{
+    font-weight: bolder;
 }
 .s{
     width: 15%;
@@ -83,7 +87,7 @@ div{
     color:#52453D;
 }                      /*end of block 3*/
 #s4{
-    background-color: #E4C7B9;
+    background-color: #A9A3A7;
     margin-top: 7%;
     border-radius: 25px;
     margin-left: 62.5%;
@@ -92,7 +96,7 @@ div{
     border-radius: 0px 0px 25px 25px;
 }
 #s4 a{
-    color:#5C4937;
+    color: rgb(rgb(46, 45, 45));
 }                   /*end of block 4*/
 #s5{
     background-color: #C0BCB0;
