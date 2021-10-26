@@ -11,6 +11,9 @@ a{
 body{
     background: url(images/ипМ.jpg); background-size: cover;  
 }
+img{
+    object-fit: cover;
+}
 .rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -29,39 +32,36 @@ body{
     color: #121212;
 }
 #Moz{
-    width: 30%;
-    height: 350px;
-    text-align: center;
+    width: 27%;
+    height: 35%;
+    text-align: left;
     position: fixed;
-    margin-left: 16%;
+    margin-left: 20%;
     margin-top: 10%;
 }
 #Moz a h2{
-    background-color: #6C6C6C;
     font-size: 27pt;   
-    margin-top: 0%;
-    border-radius: 0px 0px 25px 25px;
-}
-#Moz img{
     width: 100%;
-    border-radius: 25px 25px 0px 0px;
+    height: 100%;
+    padding-left: 2%;
+    background: url(images/MozS.jpg); background-size: cover;
+    border-radius: 25px 25px 25px 25px;
 }
 #Ves{
-    width: 30%;
-    height: 350px;
-    text-align: center;
+    width: 27%;
+    height: 35%;
+    text-align: right;
     position: fixed;
-    margin-left: 54%;
+    margin-left: 52%;
     margin-top: 10%;
 }
 #Ves a h2{
     font-size: 27pt;
-    background-color: #6C6C6C;
-    border-radius: 0px 0px 25px 25px;
-}
-#Ves img{
     width: 100%;
-    border-radius: 25px 25px 0px 0px;
+    height: 100%;
+    padding-right: 2%;
+    background: url(images/VesS.jpg); background-size: cover;
+    border-radius: 25px 25px 25px 25px;
 }
 #p {
     width: 0%;
@@ -73,7 +73,7 @@ body{
     position: fixed;
     margin-left: 85%;
 }
-#Moz:hover{
+/*#Moz:hover{
     transition-timing-function: linear;
     transition-duration: 500ms;
     width: 35%;
@@ -95,8 +95,8 @@ body{
     transition-timing-function: linear;
     transition-duration: 500ms;
     font-size: 27pt;
-}                                /*end of anim MOZ*/
-#Ves:hover{
+} */                               /*end of anim MOZ*/
+/*#Ves:hover{
     transition-timing-function: linear;
     transition-duration: 500ms;
     width: 35%;
@@ -118,4 +118,30 @@ body{
     transition-timing-function: linear;
     transition-duration: 500ms;
     font-size: 27pt;
+}*/
+#Ves h2:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    font-size: 40pt;
+    padding-bottom: 15%;
+    padding-right: 15%;
+    color: black;
+}
+#Ves h2:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(48, 48, 48);
+}
+#Moz h2:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    font-size: 40pt;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    color: black;
+}
+#Moz h2:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(48, 48, 48);
 }

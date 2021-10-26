@@ -147,7 +147,7 @@ div{
     color:#191313;
 }               /*end of block 8*/
 #s9{
-    background-color: #B5A196;
+    background-color: #F3E8E4;
     margin-top: 30%;
     border-radius: 25px;
     margin-left: 70%;
@@ -156,7 +156,7 @@ div{
     border-radius: 0px 0px 25px 25px;
 }
 #s9 a{
-    color:#191313;
+    color:#423934;
 }           /*end of block 9*/
 #str{
     position: fixed;
@@ -362,10 +362,10 @@ div{
     transition-timing-function: linear;
     transition-duration: 500ms;
     font-size: 23.5pt;
-    color: yellow;
+    color: #1b1918;
 }
 #s9 a:not(:hover){
     transition-timing-function: linear;
     transition-duration: 500ms;
-    color: red;
+    color: #423934;
 }           /*end of anim 9*/

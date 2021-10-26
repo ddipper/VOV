@@ -13,15 +13,14 @@ body{
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+#d a{
+    text-decoration: none;
+    font-size: 22pt;
+    background-color:#837C72;
+    color:#19120A;
+}
 #r{
     float: right;
-}
-p{
-    margin-left: 1%;
-    margin-right: 1%;
-    font-size: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #19120A;
 }
 img{
     float:left;
@@ -32,7 +31,8 @@ img{
     margin-left: 10%;
     background-color: #837C72;
     margin-top: 1%;
-    border-radius: 26px;
+    padding-bottom: 0.5%;
+    border-radius: 29px 29px 0px 0px;
 }
 #dh1{
     background-color: #19120A;
@@ -51,4 +51,55 @@ img{
     width: 8%;
     margin-left: 0.5%;
     margin-top: 0%;
+}
+#d a{
+    text-decoration: none;
+    font-size: 25pt;
+    background-color: #837C72;
+    color:#19120A;
+}
+li{
+    font-size: 25pt;
+    font-weight: bolder;
+    padding: 0.6%;
+}
+ol{
+    margin-left: 2%;
+}
+#nav{
+    height: 40%;
+    width: 40%;
+    margin-left: 35%;
+    padding-bottom: 3%;
+}
+#nav h1{
+    background-color: #837C72;
+    color:#241408 ;
+    font-size: 40pt;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+#tx h2{
+    font-size: 23pt;
+    margin-left: 4%;
+    font-weight: bolder;
+    margin-top:0.7%;
+    margin-bottom: 0.5%;
+}
+#d h3{
+    background-color: #837C72;
+    color:#19120A ;
+    font-size: 16pt;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#a1:hover{
+    transition-timing-function: linear;
+    transition-duration: 300ms;
+    color: #41372b;
+    font-size: 30pt;
+}
+#a1:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 300ms;
 }

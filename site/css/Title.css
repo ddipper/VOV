@@ -13,6 +13,9 @@ a{
     text-decoration: none;
     color:rgb(91, 72, 52);
 }
+img{
+    object-fit: cover;
+}
 #s1{
     text-align: left;
     width: 50%;
@@ -31,8 +34,8 @@ a{
 }
 #s{
     background-color: rgb(91, 72, 52);
-    width: 40%;
-    margin-left: 30%;
+    width: 30%;
+    margin-left: 35%;
     margin-top: 1%;
     margin-bottom: 1%;
     height: 6%;
@@ -205,7 +208,7 @@ a{
 }  
 footer{
     position: fixed;
-    margin-top: 39.5%;
+    margin-top: 39.8%;
     width: 100%;
     background-color: rgb(91, 72, 52);
     height: 100px;

@@ -60,6 +60,7 @@ body{
 #a1:hover{
     transition-timing-function: linear;
     transition-duration: 300ms;
+    font-size: 30pt;
     color: #181818;
 }
 #a1:not(:hover){
