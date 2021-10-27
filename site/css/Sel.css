@@ -13,23 +13,26 @@ body{
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-p{
-    margin-left: 1%;
-    margin-right: 1%;
-    font-size: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #19120A;
+#d a{
+    text-decoration: none;
+    font-size: 22pt;
+    background-color:#837C72;
+    color:#19120A;
+}
+#r{
+    float: right;
 }
 img{
     float:left;
     margin  : 1%;
 }
 #d{
-    width: 80%;
-    margin-left: 10%;
+    width: 82%;
+    margin-left: 9%;
     background-color: #837C72;
     margin-top: 1%;
-    border-radius: 26px;
+    border-radius: 29px 29px 0px 0px;
+    padding-bottom: 0.5%;
 }
 #dh1{
     background-color: #19120A;
@@ -48,4 +51,56 @@ img{
     width: 8%;
     margin-left: 0.5%;
     margin-top: 0%;
+}
+#d a{
+    text-decoration: none;
+    font-size: 27pt;
+    background-color: #837C72;
+    color:#19120A;
+}
+li{
+    font-size: 25pt;
+    font-weight: bolder;
+    padding: 0.6%;
+}
+ol{
+    margin-left: 2%;
+}
+#nav{
+    height: 40%;
+    width: 60%;
+    margin-left: 37%;
+    padding-bottom: 6%;
+}
+#nav h1{
+    background-color: #837C72;
+    color:#241408 ;
+    font-size: 40pt;
+    margin-left: 11%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+#tx h2{
+    font-size: 23pt;
+    margin-left: 4%;
+    font-weight: bolder;
+    margin-top:0.7%;
+    margin-bottom: 0.5%;
+}
+#d h3{
+    background-color: #837C72;
+    color:#19120A ;
+    font-size: 16pt;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#a1:hover{
+    transition-timing-function: linear;
+    transition-duration: 300ms;
+    color: #41372b;
+    font-size: 33pt;
+}
+#a1:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 300ms;
 }
